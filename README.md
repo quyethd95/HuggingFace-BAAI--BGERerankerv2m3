@@ -32,6 +32,6 @@ pip install transformers torch
 With `BGE_Reranker_AzureML.ipynb` you can deploy and run the model on Azure AI services: includes environment setup, script creation for inference, model registration, endpoint deployment and testing the deployed endpoint.
 
 ## Acknowledgements
-- **BAAI** for developing the BGE Reranker v2 m3 model;
-- **HuggingFace** for hosting the model and providing the Transformers library;
-- **Microsoft Azure** for cloud platform services.
+- [BAAI](https://huggingface.co/BAAI) for developing the BGE Reranker v2 m3 model;
+- [HuggingFace](https://huggingface.co/BAAI/bge-reranker-v2-m3) for hosting the model and providing the Transformers library;
+- [Microsoft Azure](https://portal.azure.com) for cloud platform services.
