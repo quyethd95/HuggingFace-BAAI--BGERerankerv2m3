@@ -4,3 +4,8 @@ This repo provides a hands-on demonstration of using BAAl's (Beijing Academy of 
 - **BGE_Reranker_Local.ipynb**: For running the model locally using PyTorch and Hugging Face Transformers.
 - **BGE_Reranker_AzureML.ipynb**: For deploying and running the model in an Azure AI environment.
 
+## Table of Contents
+- [Prerequisites]()
+- [Part 1: Configuring Environment]()
+- [Part 2: Local use]()
+- [Part 3: Azure AI use]()
