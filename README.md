@@ -19,9 +19,9 @@ This repo provides a hands-on demonstration of using BAAl's (Beijing Academy of 
 - GPU recommended for faster inference.
 
 ## Part 1: Configuring Environment
-1. Install necessary packages:
-``` bash
-pip install transformers torch
+1. Install necessary Python packages:
+``` PowerShell
+pip install -r requirements.txt
 ```
 
 ## Part 2: BGE Reranker - Local use
