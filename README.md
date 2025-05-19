@@ -11,8 +11,8 @@ This repo provides a hands-on demonstration of using BAAl's (Beijing Academy of 
 
 *   [Prerequisites](#prerequisites)
 *   [Part 1: Configuring Environment](#part-1-configuring-environment)
-*   [Part 2: Local use](#part-2-local-use)
-*   [Part 3: Azure AI use](#part-3-azure-ai-use)
+*   [Part 2: Local use](#part-2-bge-reranker--local-use)
+*   [Part 3: Azure AI use](#part-3-bge-reranker--azure-ai-use)
 *   [Acknowledgements](#acknowledgements)
 
 ## Prerequisites
@@ -25,10 +25,10 @@ This repo provides a hands-on demonstration of using BAAl's (Beijing Academy of 
 pip install transformers torch
 ```
 
-## Part 2: Local use
+## Part 2: BGE Reranker - Local use
 
 
-## Part 3: Azure AI use
+## Part 3: BGE Reranker - Azure AI use
 With `BGE_Reranker_AzureML.ipynb` you can deploy and run the model on Azure AI services: includes environment setup, script creation for inference, model registration, endpoint deployment and testing the deployed endpoint.
 
 ## Acknowledgements
