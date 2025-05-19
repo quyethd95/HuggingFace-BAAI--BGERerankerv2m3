@@ -4,6 +4,9 @@ This repo provides a hands-on demonstration of using BAAl's (Beijing Academy of 
 - **BGE_Reranker_Local.ipynb**: For running the model locally using PyTorch and Hugging Face Transformers.
 - **BGE_Reranker_AzureML.ipynb**: For deploying and running the model in an Azure AI environment.
 
+> [!NOTE]
+> Model weights are stored on the HuggingFace site and can be accessed at this [model card page](https://huggingface.co/BAAI/bge-reranker-v2-m3).
+
 ## Table of Contents
 - [Prerequisites]()
 - [Part 1: Configuring Environment]()
