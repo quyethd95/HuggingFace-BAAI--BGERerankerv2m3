@@ -25,11 +25,11 @@ pip install transformers torch
 ```
 
 ## Part 2: BGE Reranker - Local use
-This section covers using the BGE Reranker v2 m3 model locally with the `BGE_Reranker_Local.ipynb` notebook.
+This section covers the using of the BGE Reranker v2 m3 model locally with the `BGE_Reranker_Local.ipynb` notebook.
 
 Key steps include:
 1. *Loading the Model*: Import necessary libraries (torch, transformers) and load the BAAI/bge-reranker-v2-m3 model and tokenizer, automatically detecting and using a GPU if available.
-2. *Creating a Reranking Function*: Define a Python function rerank that takes a query and a list of documents, uses the loaded model to score each document's relevance to the query, and returns the documents sorted by relevance score.
+2. *Creating a Reranking Function*: Define a Python function rerank that takes a query and a list of documents, uses the loaded model to score each document's relevance to the query and returns the documents sorted by relevance score.
 3. *Testing*: Demonstrate the rerank function with simple and more complex examples to show how the model reorders documents based on the query.
 
 ## Part 3: BGE Reranker - Azure AI use
