@@ -11,8 +11,8 @@ This repo provides a hands-on demonstration of using BAAl's (Beijing Academy of 
 
 *   [Prerequisites](#prerequisites)
 *   [Part 1: Configuring Environment](#part-1-configuring-environment)
-*   [Part 2: Local use](#part-2-bge-reranker--local-use)
-*   [Part 3: Azure AI use](#part-3-bge-reranker--azure-ai-use)
+*   [Part 2: BGE Reranker - Local use](#part-2-bge-reranker--local-use)
+*   [Part 3: BGE Reranker - Azure AI use](#part-3-bge-reranker--azure-ai-use)
 *   [Acknowledgements](#acknowledgements)
 
 ## Prerequisites
