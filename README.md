@@ -2,7 +2,7 @@
 
 This repo provides a hands-on demonstration of using BAAl's (Beijing Academy of Artificial Intelligence) `BGE-Reranker-v2-m3` model from Hugging Face for sequence reranking tasks. It includes two Jupyter notebooks:
 - **BGE_Reranker_Local.ipynb**: For running the model locally using PyTorch and Hugging Face Transformers.
-- **BGE_Reranker_AzureML.ipynb**: For deploying and running the model in an Azure AI environment.
+- **BGE_Reranker_AzureML.ipynb**: For deploying and running the model in Azure Machine Learning inference environment.
 
 > [!NOTE]
 > Model weights are stored on the HuggingFace site and can be accessed at this [model card page](https://huggingface.co/BAAI/bge-reranker-v2-m3).
@@ -32,8 +32,49 @@ Key steps include:
 2. *Creating a Reranking Function*: Define a Python function rerank that takes a query and a list of documents, uses the loaded model to score each document's relevance to the query and returns the documents sorted by relevance score.
 3. *Testing*: Demonstrate the rerank function with simple and more complex examples to show how the model reorders documents based on the query.
 
+Sample reranking query results:
+``` JSON
+Query: What are the benefits of regular exercise?
+
+Ranked Documents (most to least relevant):
+
+1. Score: 6.7963
+   Document: Regular exercise improves cardiovascular health, boosts mood, and helps maintain a healthy weight.
+
+2. Score: 1.7936
+   Document: Exercise has been shown to reduce the risk of chronic diseases such as diabetes and heart disease.
+
+3. Score: 0.7743
+   Document: Physical activity strengthens muscles and bones, and can improve sleep quality.
+
+4. Score: -9.6014
+   Document: Coffee contains caffeine which can improve alertness and concentration.
+
+5. Score: -11.0410
+   Document: The capital of France is Paris, which is known for its beautiful architecture.
+```
+
 ## Part 3: BGE Reranker - Azure AI use
-With `BGE_Reranker_AzureML.ipynb` you can deploy and run the model on Azure AI services: includes environment setup, script creation for inference, model registration, endpoint deployment and testing the deployed endpoint.
+With `BGE_Reranker_AzureML.ipynb` you can deploy and run the model on Azure Machine Learning online endpoint.
+
+<<TBC>>
+
+Sample reranking query results:
+``` JSON
+================================================================================
+PROCESSED RERANKING RESULTS:
+================================================================================
+Query: What is Deep Learning?
+================================================================================
+Rank Score      Text
+================================================================================
+1    0.999879   Deep learning is a subset of machine learning that uses neural network...
+2    0.013742   Machine learning is a method of data analysis that automates analytica...
+3    0.010945   Artificial intelligence is the simulation of human intelligence proces...
+4    0.000142   Python is a high-level programming language widely used for web develo...
+
+================================================================================
+```
 
 ## Acknowledgements
 - [BAAI](https://huggingface.co/BAAI) for developing the BGE Reranker v2 m3 model;
