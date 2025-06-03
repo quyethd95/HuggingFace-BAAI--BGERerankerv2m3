@@ -84,4 +84,4 @@ Rank Score      Text
 ## Acknowledgements
 - [BAAI](https://huggingface.co/BAAI) for developing the BGE Reranker v2 m3 model;
 - [HuggingFace](https://huggingface.co/BAAI/bge-reranker-v2-m3) for hosting the model and providing the Transformers library;
-- [Microsoft Azure](https://portal.azure.com) for cloud platform services.
+- [Microsoft Azure](https://portal.azure.com) for cloud AI inference services.
