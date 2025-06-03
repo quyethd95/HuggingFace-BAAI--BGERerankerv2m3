@@ -28,9 +28,9 @@ pip install -r requirements.txt
 This section covers the using of the BGE Reranker v2 m3 model locally with the `BGE_Reranker_Local.ipynb` notebook.
 
 Key steps include:
-1. *Loading the Model*: Import necessary libraries (torch, transformers) and load the BAAI/bge-reranker-v2-m3 model and tokenizer, automatically detecting and using a GPU if available.
-2. *Creating a Reranking Function*: Define a Python function rerank that takes a query and a list of documents, uses the loaded model to score each document's relevance to the query and returns the documents sorted by relevance score.
-3. *Testing*: Demonstrate the rerank function with simple and more complex examples to show how the model reorders documents based on the query.
+1. *Loading the Model*: Import necessary libraries and load the BAAI/bge-reranker-v2-m3 model and tokenizer.
+2. *Creating a Reranking Function*: Define a Python function rerank that takes a query and returns documents sorted by relevance score.
+3. *Testing*: Demonstrate the rerank function with simple and more complex examples to show how the model's capability.
 
 Sample reranking query results:
 ``` JSON
@@ -58,7 +58,11 @@ Ranked Documents (most to least relevant):
 With `BGE_Reranker_AzureML.ipynb` you can deploy and run the model on Azure Machine Learning online endpoint.
 
 Key steps include:
-<<TBC>>
+1. *Connecting to Azure ML*: Authenticating and establishing a connection to your Azure Machine Learning workspace.
+2. *Finding the BGE Reranker Model*: Identifying the baai-bge-reranker-v2-m3 model within the Hugging Face registry in Azure ML.
+3. *Deploying to Online Endpoint*: Creating a managed online endpoint and deploying the BGE Reranker model to it.
+4. *Testing the Deployed Model*: Sending sample query and text data to the deployed endpoint and processing the reranker's response.
+5. *Cleaning up Resources (Optional)*: Providing instructions for deleting the deployed endpoint and associated resources to avoid unnecessary costs.
 
 Sample reranking query results:
 ``` JSON
