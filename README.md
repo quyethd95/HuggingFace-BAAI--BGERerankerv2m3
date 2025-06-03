@@ -57,6 +57,7 @@ Ranked Documents (most to least relevant):
 ## Part 3: BGE Reranker - Azure AI use
 With `BGE_Reranker_AzureML.ipynb` you can deploy and run the model on Azure Machine Learning online endpoint.
 
+Key steps include:
 <<TBC>>
 
 Sample reranking query results:
